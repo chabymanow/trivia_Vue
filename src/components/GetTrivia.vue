@@ -31,7 +31,7 @@
                 }
                 console.log(this.category);
                 const URL = 'https://api.api-ninjas.com/v1/trivia?category='+this.category;
-                const headers = { 'X-Api-Key': 'ttO9t2CJIJf3dtlKVczFYg==wlqR80GWbGw77aoe' };
+                const headers = { 'X-Api-Key': 'GET_YOUR_API_KEY' };
                 const res = await fetch(URL, { headers } )
                 const results = await res.json()
                 console.log(results)

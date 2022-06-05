@@ -1,4 +1,14 @@
-# trivia
+# Trivia
+---
+
+Simple trivia program in Vue.js.
+Choose the category, press the button and try to answer the question. If you want to know, press the 'Show asnwer' button.
+
+The questions come from <https://api-ninjas.com/api/trivia>
+
+You need to register there and use your own API key, but this is free so...
+
+---
 
 ## Project setup
 ```
